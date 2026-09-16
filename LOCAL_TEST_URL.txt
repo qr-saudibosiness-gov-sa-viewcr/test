@@ -1,4 +1,0 @@
-Open with Five Server:
-http://localhost:5500/document-verification/?documentNumber=202-25305&subscriptionNumber=202011183113
-
-If Five Server is serving a parent workspace instead of this folder, include the folder name before /document-verification/.
