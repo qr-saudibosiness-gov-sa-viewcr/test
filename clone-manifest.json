@@ -1,0 +1,1408 @@
+{
+  "targetUrl": "https://tujar.fsc.org.sa/document-verification?documentNumber=202-25305&subscriptionNumber=202011183113",
+  "savedAt": "2026-09-16T14:44:54.654Z",
+  "pages": [
+    {
+      "url": "https://tujar.fsc.org.sa/document-verification?documentNumber=202-25305&subscriptionNumber=202011183113",
+      "file": "index.html",
+      "depth": 0,
+      "linksFound": 0
+    }
+  ],
+  "networkRequests": [],
+  "apiEntries": [
+    {
+      "url": "https://supportchat.ksa-app.com/api/widget/config?key=pk_KtD-kfzi0ZB2i6iHMpbja3NcN-gX5rK_",
+      "pathname": "/api/widget/config",
+      "method": "GET",
+      "file": "api/widget/config--1ffce872c81856e8.json",
+      "status": 200,
+      "statusText": "OK",
+      "contentType": "application/json; charset=utf-8",
+      "headers": {
+        "etag": "W/\"1dc-hAONplKIoXNh9ThbhrhEKPAeyZo\"",
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body": "{\"tenantId\":\"6286ee78-b6d4-4711-9c82-314bf26e4825\",\"name\":\"منصة تجار\",\"primaryColor\":\"#0b8429\",\"launcherColor\":\"#0b8429\",\"chatPattern\":\"bubbles\",\"widgetPosition\":\"left\",\"title\":\"مساعد منصة تجار\",\"welcomeMessage\":\"هلا والله! أنا مساعد التاجر، كيف أقدر أخدمك اليوم؟\",\"placeholder\":\"اكتب سؤالك هنا...\",\"launcherLabel\":\"تواصل معنا\",\"enabled\":true,\"uploadsEnabled\":true,\"humanSupportEnabled\":false}",
+      "encoding": "utf8",
+      "redirectedTo": null
+    },
+    {
+      "url": "https://tujar.fsc.org.sa/assets/config/config.json",
+      "pathname": "/assets/config/config.json",
+      "method": "GET",
+      "file": "assets/config/config.json",
+      "status": 200,
+      "statusText": "OK",
+      "contentType": "application/json",
+      "headers": {
+        "cache-control": "no-store",
+        "etag": "\"6a9d4315-aa\"",
+        "content-type": "application/json",
+        "last-modified": "Sun, 06 Sep 2026 10:40:21 GMT"
+      },
+      "body": "{\n  \"apiUrl\": \"https://tujar.fsc.org.sa/be\",\n  \"captchaSiteKey\": \"6Le31K4nAAAAAMjUjlZ3JSrvp-oflhb0qp9shJkO\",\n  \"enableEncryptBodyReq\": true,\n  \"enableConsoleLog\": false\n}",
+      "encoding": "utf8",
+      "redirectedTo": null
+    },
+    {
+      "url": "https://tujar.fsc.org.sa/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification",
+      "pathname": "/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification",
+      "method": "POST",
+      "file": "api/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification.json",
+      "status": 200,
+      "statusText": "OK",
+      "contentType": "application/json",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "body": "{\"encryptedIV\":\"uBtbxye/KNDmp/27\",\"encryptedData\":\"\\u002BFsOEz1gDzcQZsY4/xOkNIKvuTrXQqzUJxtqZTdlvbUEt884wfq0rELvoy2YjVoEyotbLpg\\u002B25Jqh//ukaF4jWqwA3Dzkpu5zru1egdHVxNRi2OaBKELp1NMIcA\\u002BINUP2erLW9/YmMlMsZoIBjWWDrQibHpiv6WMDmugjPib2QN7PadrQD5nwVybIXOlS/iK2Ay5MxlDjUSQbUDzipKOZCpPBNz3GMwiCKNOHSIWFt9jMJP3w2FkGfDUGqDOBYzzO7vYcDj40aV3s6JyldwLuQwM\\u002BvI72B2CQa0Q03zIrzFDtd/ASBwZcOiiw3uIEdZob0Y1HrWswP4gNEcAiMksNuweWWu8QkwLsNNUQk26\\u002BN1biPiOoDrHLF4ixVMBWvu2j6WlCbsP03QalSkRRFtlZjwkrT6TG3HiGA8p0SDDciWxIOi8EJDEXNcmnsC7HNYFjYwxyv1vJ6VSw7XoSBP1tRSirPXC8cPqCJ8e2KkP5c0EIgWNZsG2KOp27IxQwIyXoH3SY2CR1wRkNpgqCQkjJ248cyViVFLfnWtGvGbyGOT\\u002BqCVTWfU4UHybtZsxlIR4Jz9q1zNUGT2IjQkkvgjGl09TpawcsMRjPhCPqInFKKy7qxMzJ8s3llVJKRz4KtEIxlaAWpmoiUR0rIMVn2FulbLiBQkK3J39uM8eBAZIDG74APmbgoI6bYXY0Q7AzHI9kOKPxfMTnpPmG77Hvmgu9LKtvpQkqrbz37ASsld1OCVlWkoiankfjRn6nodgp\\u002Bo9sAU7YlMZmg9925Q3wOt99Vt9Pac4GUMv\\u002ByE2ibCMEYaWMfNoHtCGIvJF6WzXLkZAKrko1f6O4psr/gCaoHpRLHgwpGgWgQiXmvM3SkYIXS24dpgGBAsJ3ZN9/lsNvcwnIibAbLfpzxywquTTY3HUzNA5UnPVMa23mmLUzRBXYgGjQTE8fdqWNpVsJaN8/QAZo3S19qEi\\u002B/ejgyfGIC4xsciytcf\\u002B6OGDNbYkp6PgF25xVz1ai5bzH5LrmaL6JP744n7g9J76R1Lc2fcFW5KLS4y/6LXu73rgIt/nSX52UVGxPmbdep6yHnpfZ2zHGbT8SUlCauHHZxFhoJpQQFC/yo03F3\\u002BAS6mfZijAoZfVn0FbPxpS4lXpOLBIfjmpU/7BeGMLzdjyqEcRncrR11Uzxrm\\u002BblPmpwCiGR3gm6At8uucylsm6RbGotVNSZEaUl5tisvRMlgN76cSNLaCVQj/4GDd5kjKDULaW/pqKQw31Z2BQ0Tm/7vqgWnJag==\"}",
+      "encoding": "utf8",
+      "redirectedTo": null
+    }
+  ],
+  "byteIdentityChecks": [],
+  "integrityEntries": [
+    {
+      "file": "assets/imgs/profile-pattern-bg.svg",
+      "url": "https://tujar.fsc.org.sa/assets/imgs/profile-pattern-bg.svg",
+      "size": 564109,
+      "sha256": "81cd52bffafa6f9b5f2fc6b9a1acbd0aef6db6d573055640a9bc038ac13f6966",
+      "contentType": "image/svg+xml",
+      "kind": "blob"
+    },
+    {
+      "file": "fonts/media/IBMPlexSansArabic-SemiBold-5FDB7AUQ.woff2",
+      "url": "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-SemiBold-5FDB7AUQ.woff2",
+      "size": 74384,
+      "sha256": "cc03e8dcf75c54457b8f2055339a23a5c5ba921f64925f576462cd6e79b159ff",
+      "contentType": "font/woff2",
+      "kind": "blob"
+    },
+    {
+      "file": "fonts/media/IBMPlexSansArabic-Regular-BKJCRWAV.woff2",
+      "url": "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Regular-BKJCRWAV.woff2",
+      "size": 69780,
+      "sha256": "af3c854b56bf973d1abb32ff80ed5a5cf6e50adf188acbbc9f75b9f95f0f50e1",
+      "contentType": "font/woff2",
+      "kind": "blob"
+    },
+    {
+      "file": "fonts/media/IBMPlexSansArabic-Medium-F6IFSLHU.woff2",
+      "url": "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Medium-F6IFSLHU.woff2",
+      "size": 73704,
+      "sha256": "9c5d72038662a2a617a94d9c1d0d4f050e4ce91e36e03fd5a0f3e9e98ce0e61b",
+      "contentType": "font/woff2",
+      "kind": "blob"
+    },
+    {
+      "file": "assets/imgs/auth-portal-bg.svg",
+      "url": "https://tujar.fsc.org.sa/assets/imgs/auth-portal-bg.svg",
+      "size": 644255,
+      "sha256": "a5a6ab964417e48353cd7c7c126c6a57196499d6f0447f84dd5d2973fd0f4550",
+      "contentType": "image/svg+xml",
+      "kind": "blob"
+    },
+    {
+      "file": "images/recaptcha/api2/logo_48.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "size": 2228,
+      "sha256": "1b9efb22c938500971aac2b2130a475fa23684dd69e43103894968df83145b8a",
+      "contentType": "image/png",
+      "kind": "blob"
+    },
+    {
+      "file": "images/recaptcha/api2/refresh_2x.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/refresh_2x.png",
+      "size": 600,
+      "sha256": "44b988703019cd6bfa86c91840fecf2a42b611b364e3eea2f4eb63bf62714e98",
+      "contentType": "image/png",
+      "kind": "blob"
+    },
+    {
+      "file": "images/recaptcha/api2/audio_2x.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/audio_2x.png",
+      "size": 530,
+      "sha256": "89c62095126fca89ea1511cf35b49b8306162946b0c26d6f60c5506c51d85992",
+      "contentType": "image/png",
+      "kind": "blob"
+    },
+    {
+      "file": "images/recaptcha/api2/info_2x.png",
+      "url": "https://www.gstatic.com/recaptcha/api2/info_2x.png",
+      "size": 665,
+      "sha256": "55eaf62cb05da20088dc12b39d7d254d046cb1fd61ddf3ae641f1439efd0a5ee",
+      "contentType": "image/png",
+      "kind": "blob"
+    },
+    {
+      "file": "assets/favicons/selected-a7646c18e06c5ba3.svg",
+      "size": 643,
+      "sha256": "a7646c18e06c5ba3ec37859b897443edb6409a0b8ad31c4e0beedbf223522704",
+      "contentType": "image/svg+xml",
+      "kind": "favicon",
+      "source": "https://tujar.fsc.org.sa/favicon.svg"
+    }
+  ],
+  "viewerDocuments": [],
+  "customDocument": null,
+  "staticDocumentSnapshots": [
+    {
+      "staticDocumentSnapshot": false,
+      "originalRoute": "/document-verification",
+      "physicalRoute": "index.html",
+      "localDocumentPath": null,
+      "sourceBootstrapScriptsDisabled": [],
+      "viewerReplacementApplied": false,
+      "preservePhysicalRoute": false,
+      "reason": "route-not-files-portal",
+      "angularNativeDocumentPortalGuard": {
+        "active": false,
+        "reason": "route-not-files-portal",
+        "apiMethod": null
+      }
+    },
+    {
+      "staticDocumentSnapshot": false,
+      "originalRoute": "/document-verification",
+      "physicalRoute": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+      "localDocumentPath": null,
+      "sourceBootstrapScriptsDisabled": [],
+      "viewerReplacementApplied": false,
+      "preservePhysicalRoute": false,
+      "reason": "route-not-files-portal",
+      "angularNativeDocumentPortalGuard": {
+        "active": false,
+        "reason": "route-not-files-portal",
+        "apiMethod": null
+      }
+    }
+  ],
+  "favicons": [
+    {
+      "pageFile": "index.html",
+      "sourceUrl": "https://tujar.fsc.org.sa/document-verification?documentNumber=202-25305&subscriptionNumber=202011183113",
+      "file": "assets/favicons/selected-a7646c18e06c5ba3.svg",
+      "mime": "image/svg+xml",
+      "size": 643,
+      "sha256": "a7646c18e06c5ba3ec37859b897443edb6409a0b8ad31c4e0beedbf223522704",
+      "extension": ".svg",
+      "rel": "icon",
+      "type": "image/svg+xml",
+      "sizes": "",
+      "media": "",
+      "declarationIndex": 0,
+      "declarations": [
+        {
+          "declarationIndex": 0,
+          "rel": "icon",
+          "href": "favicon.svg",
+          "type": "image/svg+xml",
+          "sizes": "",
+          "media": ""
+        }
+      ]
+    }
+  ],
+  "renderedControls": [
+    {
+      "file": "index.html",
+      "controls": [
+        {
+          "fingerprint": "1d628ae4e062c765c65fab7c8eb1dd53172c3c9f972caa2be96fa3d2171f88e0",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "8ef5fa16dcd1b11fd63d26814ff1a8f20dae0ece1805aa07f90f48d9cec21ea7",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "75f14bc23db833411b5fb7dc04b720e01f8fc96aff6ecca272b741ac3cb204e3",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "de9239a230cd506f73d38009c16c50b15738611059d3490fb7d5a10d4f048cf7",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "3c3f8154f411d177e5b281a4d08564ba49cf8046664539430e4685711e7b77c4",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "604663391e20dd7c31480f96ba30fc0db97e0ab9c5277093edf1c6c2754951ce",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "286de610038735d39a20e40fa40462f53107d1bcd9c19959e5b10bf5daaebdfe",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "807dcc3b4a004fe023daa0fd6b48677e1e6ee1e3ed43cd37d61c0840fb70216f",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bf0aa724d81fb875bb711390f5f6a321eb14f1e0bd1ef4fc86b3ccba695c8a00",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "b1710eb68da7a5557aef923aba1afc4e9055c2d9e2fc87ba7338c22015a26bfb",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "66300f9bc6c5188c6d289216cf054cba82f6e884e15f18a86ee60d03343f3007",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "9d39cba6c61e0116f6aec16de9264c681688ace1ab0c57ae156985f5c114db5c",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bb84121e4d46a21f0c704abfc13391c157921ca293d111a8747b6d785722267b",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bb65ff1bee2116e41255d15cf2834a67f560fe5541a33559184d49b8ae42584d",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "0ce76f04cf02b3f4e1caf4e919dc3ce4f8db10f8a87d76b1e1a36c0387643784",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/faq",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "94c5c359c331e23f40fce00641472109a8f7689930d78b805ca3e98422dd3daa",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/privacy-policy",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "7fe6693d41f66a869b7d6081defaafa1050fbd3cfa33e077c92a136cb25d0618",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/terms-and-conditions",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "2173f8c67103555820893fc00f68655ee496a2f5a8970bd0ab624ec014b46231",
+          "category": "ORIGINAL_LINK",
+          "destination": "mailto:HD@elm.sa",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "837cf42c18725258cc79e722d9c5713950c103a9d2c3d2573119809fd9b8b218",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://mc.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "a6acd72ecfcf0f70d36159ff456a5b4379ba8d90e9d6a5342b50d4c3805c30f4",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://www.mim.gov.sa/ar",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "b9433cd341be697e5b4260f12844ce4cbcc3279fce5219853a7832cc461530b2",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://zatca.gov.sa/ar/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "f8b355fc662b691127b1bc8905a6471f6c5a18df21ada1408da352612ea10512",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://www.hrsd.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "25d20ba5164c437d8a2c40ac1679949df2894cb4058bb6cdf72049b3b543a7a8",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://fsc.org.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "97fb1ad76bfa1d389dd836736d146d5042b7b665444008d2ea190f1fa675e82e",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://mc.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        }
+      ]
+    },
+    {
+      "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+      "controls": [
+        {
+          "fingerprint": "1d628ae4e062c765c65fab7c8eb1dd53172c3c9f972caa2be96fa3d2171f88e0",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "8ef5fa16dcd1b11fd63d26814ff1a8f20dae0ece1805aa07f90f48d9cec21ea7",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "75f14bc23db833411b5fb7dc04b720e01f8fc96aff6ecca272b741ac3cb204e3",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "de9239a230cd506f73d38009c16c50b15738611059d3490fb7d5a10d4f048cf7",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "3c3f8154f411d177e5b281a4d08564ba49cf8046664539430e4685711e7b77c4",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "604663391e20dd7c31480f96ba30fc0db97e0ab9c5277093edf1c6c2754951ce",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "286de610038735d39a20e40fa40462f53107d1bcd9c19959e5b10bf5daaebdfe",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "807dcc3b4a004fe023daa0fd6b48677e1e6ee1e3ed43cd37d61c0840fb70216f",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bf0aa724d81fb875bb711390f5f6a321eb14f1e0bd1ef4fc86b3ccba695c8a00",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "b1710eb68da7a5557aef923aba1afc4e9055c2d9e2fc87ba7338c22015a26bfb",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "66300f9bc6c5188c6d289216cf054cba82f6e884e15f18a86ee60d03343f3007",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "9d39cba6c61e0116f6aec16de9264c681688ace1ab0c57ae156985f5c114db5c",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bb84121e4d46a21f0c704abfc13391c157921ca293d111a8747b6d785722267b",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "bb65ff1bee2116e41255d15cf2834a67f560fe5541a33559184d49b8ae42584d",
+          "category": "PROTECTED_OR_UNSUPPORTED",
+          "diagnostic": "ambiguous-control"
+        },
+        {
+          "fingerprint": "0ce76f04cf02b3f4e1caf4e919dc3ce4f8db10f8a87d76b1e1a36c0387643784",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/faq",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "94c5c359c331e23f40fce00641472109a8f7689930d78b805ca3e98422dd3daa",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/privacy-policy",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "7fe6693d41f66a869b7d6081defaafa1050fbd3cfa33e077c92a136cb25d0618",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://tujar.fsc.org.sa/terms-and-conditions",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "2173f8c67103555820893fc00f68655ee496a2f5a8970bd0ab624ec014b46231",
+          "category": "ORIGINAL_LINK",
+          "destination": "mailto:HD@elm.sa",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "837cf42c18725258cc79e722d9c5713950c103a9d2c3d2573119809fd9b8b218",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://mc.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "a6acd72ecfcf0f70d36159ff456a5b4379ba8d90e9d6a5342b50d4c3805c30f4",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://www.mim.gov.sa/ar",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "b9433cd341be697e5b4260f12844ce4cbcc3279fce5219853a7832cc461530b2",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://zatca.gov.sa/ar/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "f8b355fc662b691127b1bc8905a6471f6c5a18df21ada1408da352612ea10512",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://www.hrsd.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "25d20ba5164c437d8a2c40ac1679949df2894cb4058bb6cdf72049b3b543a7a8",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://fsc.org.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        },
+        {
+          "fingerprint": "97fb1ad76bfa1d389dd836736d146d5042b7b665444008d2ea190f1fa675e82e",
+          "category": "ORIGINAL_LINK",
+          "destination": "https://mc.gov.sa/",
+          "target": "_blank",
+          "diagnostic": "original-navigation"
+        }
+      ]
+    }
+  ],
+  "requiresPdfViewer": false,
+  "verification": {
+    "ok": false,
+    "checkedAt": "2026-09-16T14:44:54.654Z",
+    "missing": [
+      {
+        "file": "index.html",
+        "reference": "/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/en/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/en/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/en/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/faq",
+        "absoluteUrl": "https://tujar.fsc.org.sa/faq",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/faq",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/privacy-policy",
+        "absoluteUrl": "https://tujar.fsc.org.sa/privacy-policy",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/privacy-policy",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "index.html",
+        "reference": "https://tujar.fsc.org.sa/terms-and-conditions",
+        "absoluteUrl": "https://tujar.fsc.org.sa/terms-and-conditions",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/terms-and-conditions",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/en/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/en/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/en/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/document-verification",
+        "absoluteUrl": "https://tujar.fsc.org.sa/document-verification",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/document-verification",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/",
+        "absoluteUrl": "https://tujar.fsc.org.sa/",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/faq",
+        "absoluteUrl": "https://tujar.fsc.org.sa/faq",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/faq",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/privacy-policy",
+        "absoluteUrl": "https://tujar.fsc.org.sa/privacy-policy",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/privacy-policy",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      },
+      {
+        "file": "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+        "reference": "https://tujar.fsc.org.sa/terms-and-conditions",
+        "absoluteUrl": "https://tujar.fsc.org.sa/terms-and-conditions",
+        "expectedLocalPath": "https:/tujar.fsc.org.sa/terms-and-conditions",
+        "hasCanonicalMapping": false,
+        "reason": "missing local target"
+      }
+    ]
+  },
+  "urlMap": [
+    [
+      "https://supportchat.ksa-app.com/widget.js",
+      "js/widget.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-BI7IWIJY.js",
+      "js/chunk-BI7IWIJY.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-WIC4G5GB.js",
+      "js/chunk-WIC4G5GB.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-D6NN7UFE.js",
+      "js/chunk-D6NN7UFE.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-6I65IQHA.js",
+      "js/chunk-6I65IQHA.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-3TRLFPQQ.js",
+      "js/chunk-3TRLFPQQ.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-CZJNKOB7.js",
+      "js/chunk-CZJNKOB7.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-KXACGNP6.js",
+      "js/chunk-KXACGNP6.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-GJZFVNMK.js",
+      "js/chunk-GJZFVNMK.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-ZJTTJM2R.js",
+      "js/chunk-ZJTTJM2R.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-H5EFNXYJ.js",
+      "js/chunk-H5EFNXYJ.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/chambers-2.svg",
+      "assets/imgs/chambers-2.svg"
+    ],
+    [
+      "https://supportchat.ksa-app.com/api/widget/config?key=pk_KtD-kfzi0ZB2i6iHMpbja3NcN-gX5rK_",
+      "api/widget/config--1ffce872c81856e8.json"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/ministry-commerce.svg",
+      "assets/imgs/ministry-commerce.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/home-line.svg",
+      "assets/imgs/home-line.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/main-LC4U7YTP.js",
+      "js/main-LC4U7YTP.js"
+    ],
+    [
+      "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap",
+      "css/css2--a0146f64c651850e.css"
+    ],
+    [
+      "https://tujar.fsc.org.sa/polyfills-JPHR772T.js",
+      "js/polyfills-JPHR772T.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/styles-LEHB2ENK.css",
+      "css/styles-LEHB2ENK.css"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/profile-pattern-bg.svg",
+      "assets/imgs/profile-pattern-bg.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-KRJE4J2A.js",
+      "js/chunk-KRJE4J2A.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-FCMT5KFG.js",
+      "js/chunk-FCMT5KFG.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-5NEBN6DS.js",
+      "js/chunk-5NEBN6DS.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-GNOVKM4D.js",
+      "js/chunk-GNOVKM4D.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-XLQ7JGCA.js",
+      "js/chunk-XLQ7JGCA.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-KTMVCBZ7.js",
+      "js/chunk-KTMVCBZ7.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-2GXARZHE.js",
+      "js/chunk-2GXARZHE.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-FPP2F6RK.js",
+      "js/chunk-FPP2F6RK.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-S35HUXPS.js",
+      "js/chunk-S35HUXPS.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-6IVTY3RO.js",
+      "js/chunk-6IVTY3RO.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-C3GRVDOV.js",
+      "js/chunk-C3GRVDOV.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-SemiBold-5FDB7AUQ.woff2",
+      "fonts/media/IBMPlexSansArabic-SemiBold-5FDB7AUQ.woff2"
+    ],
+    [
+      "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Regular-BKJCRWAV.woff2",
+      "fonts/media/IBMPlexSansArabic-Regular-BKJCRWAV.woff2"
+    ],
+    [
+      "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Medium-F6IFSLHU.woff2",
+      "fonts/media/IBMPlexSansArabic-Medium-F6IFSLHU.woff2"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-QJFPGA6R.js",
+      "js/chunk-QJFPGA6R.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-4EH5IQUD.js",
+      "js/chunk-4EH5IQUD.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/config/config.json",
+      "assets/config/config.json"
+    ],
+    [
+      "https://tujar.fsc.org.sa/favicon.svg",
+      "images/favicon.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-JBWM4H7O.js",
+      "js/chunk-JBWM4H7O.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-LHVZBOMT.js",
+      "js/chunk-LHVZBOMT.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-SR5T46ZA.js",
+      "js/chunk-SR5T46ZA.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-Y2GGX6OB.js",
+      "js/chunk-Y2GGX6OB.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-QENHBZMX.js",
+      "js/chunk-QENHBZMX.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/chunk-OA24QANZ.js",
+      "js/chunk-OA24QANZ.js"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/auth-portal-bg.svg",
+      "assets/imgs/auth-portal-bg.svg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api.js",
+      "js/recaptcha/api--dd96caffe478bb26.js"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__en.js",
+      "js/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha_en.js"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles__ltr.css",
+      "css/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles_ltr.css"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "images/recaptcha/api2/logo_48.png"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/webworker.js",
+      "js/recaptcha/api2/webworker--fc93f1f8839280c2.js"
+    ],
+    [
+      "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "fonts/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/reload",
+      "api/recaptcha/api2/reload--f50fa17e5c60495b.json"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/refresh_2x.png",
+      "images/recaptcha/api2/refresh_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/audio_2x.png",
+      "images/recaptcha/api2/audio_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/info_2x.png",
+      "images/recaptcha/api2/info_2x.png"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--304f5a316ca11cb9.jpg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/replaceimage",
+      "api/recaptcha/api2/replaceimage--f50fa17e5c60495b.json"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--d6176b5adbcc1b27.jpg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--4cfea4dbf2b8c890.jpg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--e278df037fd21990.jpg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--c830aa399f289405.jpg"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/userverify",
+      "api/recaptcha/api2/userverify--f50fa17e5c60495b.json"
+    ],
+    [
+      "https://www.google.com/recaptcha/api2/payload",
+      "images/recaptcha/api2/payload--947818854afbc519.jpg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification",
+      "api/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification.json"
+    ],
+    [
+      "https://www.google.com/recaptcha/api.js",
+      "js/recaptcha/api--e862376caa0b831c.js"
+    ],
+    [
+      "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&amp;display=swap",
+      "css/css2--0e44538bbab706e0.css"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_antnqWo572.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antnqWo572.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_antn-Wow.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antn-Wow.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnQ1iFo0C3.woff2",
+      "fonts/s/almarai/v19/tsstApxBaigK_hnnQ1iFo0C3.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnQ12Fow.woff2",
+      "fonts/s/almarai/v19/tsstApxBaigK_hnnQ12Fow.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS-agtnqWo572.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtnqWo572.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS-agtn-Wow.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtn-Wow.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_qjtnqWo572.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtnqWo572.woff2"
+    ],
+    [
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_qjtn-Wow.woff2",
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtn-Wow.woff2"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/search.svg",
+      "assets/imgs/search.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/media/breadcrumb-left-ZU4EVAIB.svg",
+      "images/media/breadcrumb-left-ZU4EVAIB.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/Button-Close.svg",
+      "assets/imgs/Button-Close.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/search-minus.svg",
+      "assets/imgs/search-minus.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/search-plus.svg",
+      "assets/imgs/search-plus.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/window-maximize.svg",
+      "assets/imgs/window-maximize.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/imgs/sync.svg",
+      "assets/imgs/sync.svg"
+    ],
+    [
+      "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Bold-7AP7GBK3.woff2",
+      "fonts/media/IBMPlexSansArabic-Bold-7AP7GBK3.woff2"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/loading.gif",
+      "images/recaptcha/api2/loading.gif"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/download.png",
+      "images/recaptcha/api2/download.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/download_white.png",
+      "images/recaptcha/api2/download_white.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/refresh_white_2x.png",
+      "images/recaptcha/api2/refresh_white_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/audio_white_2x.png",
+      "images/recaptcha/api2/audio_white_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/image_2x.png",
+      "images/recaptcha/api2/image_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/image_white_2x.png",
+      "images/recaptcha/api2/image_white_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/liveness_dark.png",
+      "images/recaptcha/api2/liveness_dark.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/modac_mobile_dark.png",
+      "images/recaptcha/api2/modac_mobile_dark.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/liveness_light.png",
+      "images/recaptcha/api2/liveness_light.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/modac_mobile_light.png",
+      "images/recaptcha/api2/modac_mobile_light.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/qr_light.png",
+      "images/recaptcha/api2/qr_light.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/info_white_2x.png",
+      "images/recaptcha/api2/info_white_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/undo_2x.png",
+      "images/recaptcha/api2/undo_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/undo_white_2x.png",
+      "images/recaptcha/api2/undo_white_2x.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/stop_sign.jpg",
+      "images/recaptcha/api2/stop_sign.jpg"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_speed_limit.png",
+      "images/recaptcha/api2/canonical_speed_limit.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_street_name.png",
+      "images/recaptcha/api2/canonical_street_name.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_other.png",
+      "images/recaptcha/api2/canonical_other.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/boundingbox2.gif",
+      "images/recaptcha/api2/boundingbox2.gif"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_car.png",
+      "images/recaptcha/api2/canonical_car.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_road.png",
+      "images/recaptcha/api2/canonical_road.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/canonical_bridge.png",
+      "images/recaptcha/api2/canonical_bridge.png"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/modac_qr_background.svg",
+      "images/recaptcha/api2/modac_qr_background.svg"
+    ],
+    [
+      "https://www.gstatic.com/recaptcha/api2/modac_camera_dark.png",
+      "images/recaptcha/api2/modac_camera_dark.png"
+    ],
+    [
+      "https://tujar.fsc.org.sa/assets/i18n/i18n-manifest.json",
+      "assets/i18n/i18n-manifest.json"
+    ]
+  ],
+  "sourceUrls": [
+    [
+      "js/recaptcha/api--e862376caa0b831c.js",
+      "https://www.google.com/recaptcha/api.js"
+    ],
+    [
+      "css/css2--0e44538bbab706e0.css",
+      "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&amp;display=swap"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antnqWo572.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_antnqWo572.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antn-Wow.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_antn-Wow.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tsstApxBaigK_hnnQ1iFo0C3.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnQ1iFo0C3.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tsstApxBaigK_hnnQ12Fow.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tsstApxBaigK_hnnQ12Fow.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtnqWo572.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS-agtnqWo572.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtn-Wow.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS-agtn-Wow.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtnqWo572.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_qjtnqWo572.woff2"
+    ],
+    [
+      "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtn-Wow.woff2",
+      "https://fonts.gstatic.com/s/almarai/v19/tssoApxBaigK_hnnS_qjtn-Wow.woff2"
+    ],
+    [
+      "assets/imgs/search.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/search.svg"
+    ],
+    [
+      "images/media/breadcrumb-left-ZU4EVAIB.svg",
+      "https://tujar.fsc.org.sa/media/breadcrumb-left-ZU4EVAIB.svg"
+    ],
+    [
+      "assets/imgs/Button-Close.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/Button-Close.svg"
+    ],
+    [
+      "assets/imgs/search-minus.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/search-minus.svg"
+    ],
+    [
+      "assets/imgs/search-plus.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/search-plus.svg"
+    ],
+    [
+      "assets/imgs/window-maximize.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/window-maximize.svg"
+    ],
+    [
+      "assets/imgs/sync.svg",
+      "https://tujar.fsc.org.sa/assets/imgs/sync.svg"
+    ],
+    [
+      "fonts/media/IBMPlexSansArabic-Bold-7AP7GBK3.woff2",
+      "https://tujar.fsc.org.sa/media/IBMPlexSansArabic-Bold-7AP7GBK3.woff2"
+    ],
+    [
+      "images/recaptcha/api2/loading.gif",
+      "https://www.gstatic.com/recaptcha/api2/loading.gif"
+    ],
+    [
+      "images/recaptcha/api2/download.png",
+      "https://www.gstatic.com/recaptcha/api2/download.png"
+    ],
+    [
+      "images/recaptcha/api2/download_white.png",
+      "https://www.gstatic.com/recaptcha/api2/download_white.png"
+    ],
+    [
+      "images/recaptcha/api2/refresh_white_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/refresh_white_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/audio_white_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/audio_white_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/image_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/image_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/image_white_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/image_white_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/liveness_dark.png",
+      "https://www.gstatic.com/recaptcha/api2/liveness_dark.png"
+    ],
+    [
+      "images/recaptcha/api2/modac_mobile_dark.png",
+      "https://www.gstatic.com/recaptcha/api2/modac_mobile_dark.png"
+    ],
+    [
+      "images/recaptcha/api2/liveness_light.png",
+      "https://www.gstatic.com/recaptcha/api2/liveness_light.png"
+    ],
+    [
+      "images/recaptcha/api2/modac_mobile_light.png",
+      "https://www.gstatic.com/recaptcha/api2/modac_mobile_light.png"
+    ],
+    [
+      "images/recaptcha/api2/qr_light.png",
+      "https://www.gstatic.com/recaptcha/api2/qr_light.png"
+    ],
+    [
+      "images/recaptcha/api2/info_white_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/info_white_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/undo_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/undo_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/undo_white_2x.png",
+      "https://www.gstatic.com/recaptcha/api2/undo_white_2x.png"
+    ],
+    [
+      "images/recaptcha/api2/stop_sign.jpg",
+      "https://www.gstatic.com/recaptcha/api2/stop_sign.jpg"
+    ],
+    [
+      "images/recaptcha/api2/canonical_speed_limit.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_speed_limit.png"
+    ],
+    [
+      "images/recaptcha/api2/canonical_street_name.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_street_name.png"
+    ],
+    [
+      "images/recaptcha/api2/canonical_other.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_other.png"
+    ],
+    [
+      "images/recaptcha/api2/boundingbox2.gif",
+      "https://www.gstatic.com/recaptcha/api2/boundingbox2.gif"
+    ],
+    [
+      "images/recaptcha/api2/canonical_car.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_car.png"
+    ],
+    [
+      "images/recaptcha/api2/canonical_road.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_road.png"
+    ],
+    [
+      "images/recaptcha/api2/canonical_bridge.png",
+      "https://www.gstatic.com/recaptcha/api2/canonical_bridge.png"
+    ],
+    [
+      "images/recaptcha/api2/modac_qr_background.svg",
+      "https://www.gstatic.com/recaptcha/api2/modac_qr_background.svg"
+    ],
+    [
+      "images/recaptcha/api2/modac_camera_dark.png",
+      "https://www.gstatic.com/recaptcha/api2/modac_camera_dark.png"
+    ],
+    [
+      "assets/i18n/i18n-manifest.json",
+      "https://tujar.fsc.org.sa/assets/i18n/i18n-manifest.json"
+    ],
+    [
+      "css/css2--a0146f64c651850e.css",
+      "https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+    ],
+    [
+      "css/styles-LEHB2ENK.css",
+      "https://tujar.fsc.org.sa/styles-LEHB2ENK.css"
+    ],
+    [
+      "css/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles_ltr.css",
+      "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles__ltr.css"
+    ],
+    [
+      "index.html",
+      "https://tujar.fsc.org.sa/document-verification?documentNumber=202-25305&subscriptionNumber=202011183113"
+    ],
+    [
+      "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+      "https://tujar.fsc.org.sa/document-verification?documentNumber=202-25305&subscriptionNumber=202011183113"
+    ]
+  ],
+  "files": [
+    "-documentNumber-202-25305-subscriptionNumber-202011183113-/index.html",
+    "api/be/api/MemberPortalDocumentVerification/GetDocumentDetailsForVerification.json",
+    "api/recaptcha/api2/reload--f50fa17e5c60495b.json",
+    "api/recaptcha/api2/replaceimage--f50fa17e5c60495b.json",
+    "api/recaptcha/api2/userverify--f50fa17e5c60495b.json",
+    "api/widget/config--1ffce872c81856e8.json",
+    "assets/config/config.json",
+    "assets/favicons/selected-a7646c18e06c5ba3.svg",
+    "assets/i18n/i18n-manifest.json",
+    "assets/imgs/Button-Close.svg",
+    "assets/imgs/auth-portal-bg.svg",
+    "assets/imgs/chambers-2.svg",
+    "assets/imgs/home-line.svg",
+    "assets/imgs/ministry-commerce.svg",
+    "assets/imgs/profile-pattern-bg.svg",
+    "assets/imgs/search-minus.svg",
+    "assets/imgs/search-plus.svg",
+    "assets/imgs/search.svg",
+    "assets/imgs/sync.svg",
+    "assets/imgs/window-maximize.svg",
+    "clone-report.html",
+    "css/css2--0e44538bbab706e0.css",
+    "css/css2--a0146f64c651850e.css",
+    "css/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/styles_ltr.css",
+    "css/styles-LEHB2ENK.css",
+    "fonts/media/IBMPlexSansArabic-Bold-7AP7GBK3.woff2",
+    "fonts/media/IBMPlexSansArabic-Medium-F6IFSLHU.woff2",
+    "fonts/media/IBMPlexSansArabic-Regular-BKJCRWAV.woff2",
+    "fonts/media/IBMPlexSansArabic-SemiBold-5FDB7AUQ.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtn-Wow.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS-agtnqWo572.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antn-Wow.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS_antnqWo572.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtn-Wow.woff2",
+    "fonts/s/almarai/v19/tssoApxBaigK_hnnS_qjtnqWo572.woff2",
+    "fonts/s/almarai/v19/tsstApxBaigK_hnnQ12Fow.woff2",
+    "fonts/s/almarai/v19/tsstApxBaigK_hnnQ1iFo0C3.woff2",
+    "fonts/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+    "images/favicon.svg",
+    "images/media/breadcrumb-left-ZU4EVAIB.svg",
+    "images/recaptcha/api2/audio_2x.png",
+    "images/recaptcha/api2/audio_white_2x.png",
+    "images/recaptcha/api2/boundingbox2.gif",
+    "images/recaptcha/api2/canonical_bridge.png",
+    "images/recaptcha/api2/canonical_car.png",
+    "images/recaptcha/api2/canonical_other.png",
+    "images/recaptcha/api2/canonical_road.png",
+    "images/recaptcha/api2/canonical_speed_limit.png",
+    "images/recaptcha/api2/canonical_street_name.png",
+    "images/recaptcha/api2/download.png",
+    "images/recaptcha/api2/download_white.png",
+    "images/recaptcha/api2/image_2x.png",
+    "images/recaptcha/api2/image_white_2x.png",
+    "images/recaptcha/api2/info_2x.png",
+    "images/recaptcha/api2/info_white_2x.png",
+    "images/recaptcha/api2/liveness_dark.png",
+    "images/recaptcha/api2/liveness_light.png",
+    "images/recaptcha/api2/loading.gif",
+    "images/recaptcha/api2/logo_48.png",
+    "images/recaptcha/api2/modac_camera_dark.png",
+    "images/recaptcha/api2/modac_mobile_dark.png",
+    "images/recaptcha/api2/modac_mobile_light.png",
+    "images/recaptcha/api2/modac_qr_background.svg",
+    "images/recaptcha/api2/payload--304f5a316ca11cb9.jpg",
+    "images/recaptcha/api2/payload--4cfea4dbf2b8c890.jpg",
+    "images/recaptcha/api2/payload--947818854afbc519.jpg",
+    "images/recaptcha/api2/payload--c830aa399f289405.jpg",
+    "images/recaptcha/api2/payload--d6176b5adbcc1b27.jpg",
+    "images/recaptcha/api2/payload--e278df037fd21990.jpg",
+    "images/recaptcha/api2/qr_light.png",
+    "images/recaptcha/api2/refresh_2x.png",
+    "images/recaptcha/api2/refresh_white_2x.png",
+    "images/recaptcha/api2/stop_sign.jpg",
+    "images/recaptcha/api2/undo_2x.png",
+    "images/recaptcha/api2/undo_white_2x.png",
+    "index.html",
+    "js/chunk-2GXARZHE.js",
+    "js/chunk-3TRLFPQQ.js",
+    "js/chunk-4EH5IQUD.js",
+    "js/chunk-5NEBN6DS.js",
+    "js/chunk-6I65IQHA.js",
+    "js/chunk-6IVTY3RO.js",
+    "js/chunk-BI7IWIJY.js",
+    "js/chunk-C3GRVDOV.js",
+    "js/chunk-CZJNKOB7.js",
+    "js/chunk-D6NN7UFE.js",
+    "js/chunk-FCMT5KFG.js",
+    "js/chunk-FPP2F6RK.js",
+    "js/chunk-GJZFVNMK.js",
+    "js/chunk-GNOVKM4D.js",
+    "js/chunk-H5EFNXYJ.js",
+    "js/chunk-JBWM4H7O.js",
+    "js/chunk-KRJE4J2A.js",
+    "js/chunk-KTMVCBZ7.js",
+    "js/chunk-KXACGNP6.js",
+    "js/chunk-LHVZBOMT.js",
+    "js/chunk-OA24QANZ.js",
+    "js/chunk-QENHBZMX.js",
+    "js/chunk-QJFPGA6R.js",
+    "js/chunk-S35HUXPS.js",
+    "js/chunk-SR5T46ZA.js",
+    "js/chunk-WIC4G5GB.js",
+    "js/chunk-XLQ7JGCA.js",
+    "js/chunk-Y2GGX6OB.js",
+    "js/chunk-ZJTTJM2R.js",
+    "js/main-LC4U7YTP.js",
+    "js/polyfills-JPHR772T.js",
+    "js/recaptcha/api--dd96caffe478bb26.js",
+    "js/recaptcha/api--e862376caa0b831c.js",
+    "js/recaptcha/api2/webworker--fc93f1f8839280c2.js",
+    "js/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha_en.js",
+    "js/widget.js"
+  ]
+}
