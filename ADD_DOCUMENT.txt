@@ -1,0 +1,18 @@
+إضافة وثيقة جديدة:
+
+1) اسم ملف البيانات = رقم الاشتراك:
+   data/202011183113.json
+
+2) اسم الـ PDF يفضل نفس رقم الاشتراك:
+   data/202011183113.pdf
+
+3) داخل JSON يمكن وضع:
+   "pdfFile": "202011183113.pdf"
+
+4) رابط العرض:
+   document-verification?documentNumber=202-25305&subscriptionNumber=202011183113
+
+النظام يختار ملف JSON من subscriptionNumber فقط.
+لإظهار بيانات أخرى غيّر subscriptionNumber في الرابط، وضع JSON/PDF بنفس رقم الاشتراك.
+
+فتح جذر الموقع فقط /test/ يعرض القالب بدون بيانات.
